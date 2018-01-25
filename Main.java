@@ -3,8 +3,8 @@ package com.softwarethatperforms;
 public class Main {
 
     public static void main(String[] args) {
-	Car porsche = new Car();
-	Car holdern = new Car();
+	com.softwarethatperforms.Car porsche = new com.softwarethatperforms.Car();
+	com.softwarethatperforms.Car holdern = new com.softwarethatperforms.Car();
 
 	porsche.setModel("Carrera");
 	System.out.println("Model is "+ porsche.getModel());
